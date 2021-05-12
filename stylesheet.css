@@ -1,0 +1,214 @@
+html,head,body,ul,li,img,h1,h2,h3,h4,p,div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    text-align: center;   
+}
+
+li {
+    list-style: none;
+    
+
+}
+
+.active {
+    background-color: #1a242f;
+}
+
+.active a {
+    pointer-events: none;
+}
+
+.header-list a {
+    display: block;
+    text-decoration-line: none;
+    color: white;    
+}
+.header-list a:hover {
+    color: #18bc9c;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    height: 60px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 19px;
+    padding: 18px 18px 18px 40px;
+}
+
+.header-logo:hover {
+    color: #18bc9c;
+}
+
+.header-list li{
+    float: left;    
+    padding: 20px 18px;
+}
+.top {
+    background-color: lightgrey;
+    color: #2c3e50;
+}
+
+.top-wrapper {
+    width: 80%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.top-container {
+    background-color: white;
+    padding-top: 40px;
+
+}
+
+.top-container h1 {
+    font-size: 39px;
+}
+
+.top-container p {
+    margin: 0 110px;
+    padding-bottom: 20px;
+}
+
+.name {
+    font-size: 20px;
+    
+}
+    
+.photo-responsive1 {
+    border-radius: 50%;
+    width: auto;
+    height: 200px;
+}
+
+.top-important {
+    background-color: white;
+    padding-top: 21px;
+    padding-bottom: 10px;    
+}
+
+.top-important h2 {
+    font-size: 29px;
+    padding-bottom: 20px;
+}
+
+.important {
+    background-color: white;
+    padding-top: 40px;
+
+}
+
+.message {
+    background-color:  white;
+    width: 33.333%;
+    float: left;
+}
+
+
+.works-wrapper {
+    background-color: white;
+    width: 80%;
+    display: inline-block;
+}
+
+#works {
+    padding-top: 21px;
+    padding-bottom: 10px;
+}
+
+.works-wrapper h2 {
+    font-size: 29px;
+}
+
+.works-container {
+    padding-top: 21px;
+    padding-bottom: 10px;
+}
+
+.works-container p{
+    padding-bottom: 10px;
+}
+
+.works-image  P{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0 140px;
+
+}
+
+.photo-responsive2 {
+    width: auto;
+    height: 400px;
+}
+
+.photo-responsive3 {
+    width: auto;
+    height: 400px;
+}
+
+.skills-wrapper {
+    background-color: white;
+    width: 80%;
+    display: inline-block;
+}
+
+#skills {
+    padding-top: 21px;
+    padding-bottom: 10px;
+}
+
+.skills-wrapper h2 {
+    font-size: 29px;
+}
+
+.skills-container p {
+    padding-bottom: 21px;
+}
+
+.skills-list {
+    width: 25%;
+    float: left;
+}
+
+.skills-list h4 {
+    padding-bottom: 10px;
+}
+
+.skills-list p {
+    padding-bottom: 10px;
+}
+
+
+.bottom {
+    background-color: white;
+    width: 80%;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.btn {
+    padding: 10px 15px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    text-decoration-line: none;
+    border-radius: 4px;
+    
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup {
+    background-color: #2c3e50;
+}
