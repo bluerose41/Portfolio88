@@ -1,0 +1,20 @@
+@media all and (max-width: 1024px) {
+    .top-container h1 {
+        font-size: 30px;
+    }
+ 
+    .message {
+        width: 80%;
+    }
+ }
+ 
+ @media all and (max-width: 894px) {
+     .top-container h1 {
+         font-size: 30px;
+     }
+ 
+     .message {
+         width: 80%;
+     }
+ 
+ }
