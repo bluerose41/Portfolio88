@@ -112,6 +112,10 @@ header {
     float: left;
 }
 
+.message p {
+    padding: 0 30px;
+}
+
 
 .works-wrapper {
     background-color: white;
